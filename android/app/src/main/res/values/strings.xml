@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Greeting Machine</string>
+
+    <string name="title_activity_prompt">Greeting</string>
+
+    <string name="greeting_prompt">Please, tell me your name.</string>
+    <string name="button_proceed">Proceed</string>
+    <string name="greeting">Hello, %1$s!</string>
+    <string name="input_name">Name</string>
+    <string name="george_costanza">George Costanza</string>
+
+    <string-array name="generated_names" translatable="false">
+        <item>Roderick Goodman</item>
+        <item>Hunter Wolf</item>
+        <item>Darrick Stevens</item>
+        <item>Amber Clay</item>
+        <item>Luisa Rhodes</item>
+        <item>Ismael Banks</item>
+        <item>Gavin Mcgee</item>
+        <item>Barrett Hart</item>
+        <item>Chase Logan</item>
+        <item>Gladys Gonzales</item>
+        <item>Petra Morton</item>
+        <item>Lottie Terry</item>
+        <item>Rey Lara</item>
+        <item>Maynard Mcpherson</item>
+        <item>Margo Decker</item>
+        <item>Chrystal Huang</item>
+        <item>Alisha Holt</item>
+        <item>Lamont Munoz</item>
+        <item>Jeffry Krueger</item>
+        <item>Ricky Burke</item>
+        <item>Wm Ryan</item>
+        <item>Jon Melton</item>
+        <item>Carmelo Mayer</item>
+        <item>Theresa Monroe</item>
+        <item>Rodrick Phelps</item>
+        <item>Darwin Richmond</item>
+        <item>Lenard Willis</item>
+        <item>Avery Hill</item>
+        <item>Marlin Shepherd</item>
+        <item>Trey Ortega</item>
+        <item>Luigi Franklin</item>
+        <item>Elsa Reilly</item>
+        <item>Concepcion Parrish</item>
+        <item>Nichole Adams</item>
+        <item>Keri Ware</item>
+        <item>Clemente Mccall</item>
+        <item>Dillon Hardy</item>
+        <item>Bradley Ballard</item>
+        <item>Blair Brennan</item>
+        <item>Carlos Galvan</item>
+        <item>Isidro Woodard</item>
+        <item>Horacio Mooney</item>
+        <item>Tristan Mitchell</item>
+        <item>Eric Yates</item>
+        <item>Wilburn Rivers</item>
+        <item>Lance Oconnell</item>
+        <item>Rayford Carrillo</item>
+        <item>Leonor Burton</item>
+        <item>Walton Lane</item>
+        <item>Kelly Figueroa</item>
+    </string-array>
+</resources>
