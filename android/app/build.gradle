@@ -30,9 +30,13 @@ android {
         jvmTarget = "1.8"
     }
     lintOptions {
+        abortOnError true
+        warningsAsErrors true
         xmlReport true
     }
 }
+
+tasks.findByName('assemble').dependsOn('lint')
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
