@@ -7,8 +7,7 @@
     <string name="greeting_prompt">Please, tell me your name.</string>
     <string name="button_proceed">Proceed</string>
     <string name="greeting">Hello, %1$s!</string>
-    <string name="input_name">Name</string>
-    <string name="george_costanza">George Costanza</string>
+    <string name="george_costanza" translatable="false">George Costanza</string>
 
     <string-array name="generated_names" translatable="false">
         <item>Roderick Goodman</item>
