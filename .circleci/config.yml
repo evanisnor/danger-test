@@ -1,18 +1,33 @@
 version: 2.1
+
 orbs:
   ruby: circleci/ruby@0.1.2 
 
 jobs:
   build:
     docker:
-      - image: circleci/ruby:2.7.0
-    executor: ruby/default
+      - image: circleci/android:api-29
     steps:
       - checkout
       - run:
           name: Which bundler?
           command: bundle -v
+      - run: gem update --system
+      - run: gem install bundler
       - ruby/bundle-install
+      - run: 
+          name: Android build
+          command: |
+            cd android
+            ./gradlew assemble
       - run:
           name: Run Danger
-          command: bundle exec danger
+          command: |
+            cd android
+            bundle exec danger
+workflows:
+  version: 2
+  danger-test:
+    jobs:
+      - build:
+          context: Github
